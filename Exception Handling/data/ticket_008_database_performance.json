@@ -1,0 +1,30 @@
+{
+  "ticket_id": "TKT-008",
+  "priority": "MEDIUM",
+  "category": "Database",
+  "status": "Resolved",
+  "created_date": "2024-01-22T11:30:00Z",
+  "resolved_date": "2024-01-22T15:15:00Z",
+  "assigned_to": "Kevin Martinez",
+  "user": {
+    "name": "Amanda Foster",
+    "department": "IT",
+    "email": "amanda.foster@company.com"
+  },
+  "subject": "Database Performance Degradation",
+  "description": "Customer database queries are running extremely slow, causing application timeouts and poor user experience. Response times have increased from 2 seconds to 30+ seconds.",
+  "resolution": "Optimized database queries and added indexes",
+  "resolution_steps": [
+    "Analyzed database performance metrics and slow queries",
+    "Identified missing indexes and inefficient query patterns",
+    "Added strategic indexes to improve query performance",
+    "Optimized problematic stored procedures and views",
+    "Updated database statistics and rebuilt indexes",
+    "Monitored performance improvements and fine-tuned settings"
+  ],
+  "time_spent_minutes": 225,
+  "tags": ["database", "performance", "optimization", "queries", "indexes"],
+  "impact": "Medium - Application performance issues",
+  "root_cause": "Missing indexes and unoptimized queries",
+  "prevention_measures": "Implement query monitoring and regular performance reviews"
+}

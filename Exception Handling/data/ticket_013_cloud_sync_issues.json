@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-013",
+  "priority": "MEDIUM",
+  "category": "Cloud Services",
+  "status": "Resolved",
+  "created_date": "2024-01-27T10:15:00Z",
+  "resolved_date": "2024-01-27T13:30:00Z",
+  "assigned_to": "Steve Brown",
+  "user": {
+    "name": "Nancy Davis",
+    "department": "HR",
+    "email": "nancy.davis@company.com"
+  },
+  "subject": "Cloud Storage Sync Failures",
+  "description": "OneDrive sync is failing for multiple users. Files are not syncing between local computers and cloud storage, causing version conflicts and data inconsistency.",
+  "resolution": "Reset sync settings and resolved authentication issues",
+  "resolution_steps": [
+    "Diagnosed OneDrive sync issues and error messages",
+    "Reset OneDrive sync settings for affected users",
+    "Resolved Microsoft 365 authentication problems",
+    "Cleared OneDrive cache and temporary files",
+    "Reconfigured sync folders and file exclusions",
+    "Verified sync functionality and file consistency"
+  ],
+  "time_spent_minutes": 195,
+  "tags": ["onedrive", "cloud_sync", "microsoft365", "authentication", "files"],
+  "impact": "Medium - File synchronization issues",
+  "root_cause": "Authentication issues and corrupted sync settings",
+  "prevention_measures": "Regular sync monitoring and user training"
+}
+

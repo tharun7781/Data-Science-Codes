@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-011",
+  "priority": "MEDIUM",
+  "category": "Remote Access",
+  "status": "Resolved",
+  "created_date": "2024-01-25T15:30:00Z",
+  "resolved_date": "2024-01-25T18:00:00Z",
+  "assigned_to": "Chris Lee",
+  "user": {
+    "name": "Susan Clark",
+    "department": "Marketing",
+    "email": "susan.clark@company.com"
+  },
+  "subject": "Remote Desktop Connection Failures",
+  "description": "Users cannot establish remote desktop connections to their work computers. Connection attempts fail with authentication errors and timeout issues.",
+  "resolution": "Updated RDP settings and resolved authentication issues",
+  "resolution_steps": [
+    "Verified remote desktop service status on target computers",
+    "Updated RDP configuration and security settings",
+    "Resolved Windows authentication and credential issues",
+    "Configured firewall rules for RDP traffic",
+    "Updated remote desktop client software",
+    "Tested connections from multiple locations"
+  ],
+  "time_spent_minutes": 150,
+  "tags": ["remote_desktop", "rdp", "authentication", "firewall", "connectivity"],
+  "impact": "Medium - Remote work affected",
+  "root_cause": "Outdated RDP configuration and authentication issues",
+  "prevention_measures": "Regular RDP configuration reviews and monitoring"
+}
+

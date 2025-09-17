@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-020",
+  "priority": "MEDIUM",
+  "category": "Disaster Recovery",
+  "status": "Resolved",
+  "created_date": "2024-02-03T10:00:00Z",
+  "resolved_date": "2024-02-03T16:30:00Z",
+  "assigned_to": "David Kim",
+  "user": {
+    "name": "Richard Martinez",
+    "department": "Operations",
+    "email": "richard.martinez@company.com"
+  },
+  "subject": "Disaster Recovery Testing",
+  "description": "Quarterly disaster recovery test needs to be performed to verify backup systems and recovery procedures. This includes testing data restoration, system recovery, and business continuity processes.",
+  "resolution": "Successfully completed disaster recovery test with minor issues resolved",
+  "resolution_steps": [
+    "Planned disaster recovery test scenarios and procedures",
+    "Activated backup systems and recovery environment",
+    "Tested data restoration from various backup points",
+    "Verified system recovery and application functionality",
+    "Tested business continuity and communication procedures",
+    "Documented test results and identified improvement areas"
+  ],
+  "time_spent_minutes": 390,
+  "tags": ["disaster_recovery", "testing", "backup", "business_continuity", "recovery"],
+  "impact": "Medium - Business continuity verification",
+  "root_cause": "Regular compliance and testing requirements",
+  "prevention_measures": "Quarterly disaster recovery testing and continuous improvement"
+}
+

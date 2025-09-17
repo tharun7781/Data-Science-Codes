@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-006",
+  "priority": "HIGH",
+  "category": "Backup",
+  "status": "Resolved",
+  "created_date": "2024-01-20T16:00:00Z",
+  "resolved_date": "2024-01-21T09:30:00Z",
+  "assigned_to": "Alex Johnson",
+  "user": {
+    "name": "Jennifer Lee",
+    "department": "Operations",
+    "email": "jennifer.lee@company.com"
+  },
+  "subject": "Backup Data Corruption",
+  "description": "Critical backup files are corrupted and cannot be restored. This affects disaster recovery capabilities and puts company data at risk. Multiple backup sets show corruption errors.",
+  "resolution": "Restored from secondary backup location and implemented verification",
+  "resolution_steps": [
+    "Identified corrupted backup files and extent of damage",
+    "Located secondary backup copies in offsite location",
+    "Verified integrity of secondary backup files",
+    "Restored critical data from secondary backup",
+    "Implemented backup verification and integrity checking",
+    "Tested restore procedures with sample data"
+  ],
+  "time_spent_minutes": 1050,
+  "tags": ["backup", "corruption", "disaster_recovery", "data_integrity", "restore"],
+  "impact": "High - Data recovery risk",
+  "root_cause": "Insufficient backup verification and monitoring",
+  "prevention_measures": "Implement automated backup verification and multiple backup locations"
+}
+

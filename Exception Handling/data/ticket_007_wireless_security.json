@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-007",
+  "priority": "HIGH",
+  "category": "Security",
+  "status": "Resolved",
+  "created_date": "2024-01-21T13:15:00Z",
+  "resolved_date": "2024-01-21T16:45:00Z",
+  "assigned_to": "Rachel Green",
+  "user": {
+    "name": "Michael Park",
+    "department": "Finance",
+    "email": "michael.park@company.com"
+  },
+  "subject": "Wireless Network Security Breach",
+  "description": "Unauthorized devices detected on corporate wireless network. Security scan shows unknown devices connected to WiFi that are not company-owned. Potential security risk.",
+  "resolution": "Updated wireless security and removed unauthorized devices",
+  "resolution_steps": [
+    "Scanned wireless network for connected devices",
+    "Identified unauthorized devices and their MAC addresses",
+    "Blocked unauthorized devices at access point level",
+    "Updated wireless encryption to WPA3",
+    "Implemented device registration and MAC filtering",
+    "Enhanced wireless monitoring and alerting"
+  ],
+  "time_spent_minutes": 210,
+  "tags": ["wireless", "security", "unauthorized_access", "encryption", "monitoring"],
+  "impact": "High - Unauthorized network access",
+  "root_cause": "Weak wireless security and insufficient monitoring",
+  "prevention_measures": "Enhanced wireless security policies and device management"
+}
+

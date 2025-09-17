@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-014",
+  "priority": "LOW",
+  "category": "Printing",
+  "status": "Resolved",
+  "created_date": "2024-01-28T09:30:00Z",
+  "resolved_date": "2024-01-28T11:45:00Z",
+  "assigned_to": "Jeff Taylor",
+  "user": {
+    "name": "Lisa Wang",
+    "department": "Operations",
+    "email": "lisa.wang@company.com"
+  },
+  "subject": "Printer Driver Conflicts",
+  "description": "Multiple printer drivers are conflicting causing print jobs to fail or print to wrong printer. Users are experiencing random printer selection issues.",
+  "resolution": "Removed conflicting drivers and standardized printer configuration",
+  "resolution_steps": [
+    "Identified conflicting printer drivers in system",
+    "Removed outdated and conflicting printer drivers",
+    "Installed latest compatible drivers for all printers",
+    "Standardized printer naming and configuration",
+    "Tested printing from all applications",
+    "Provided user training on printer selection"
+  ],
+  "time_spent_minutes": 135,
+  "tags": ["printer", "drivers", "conflicts", "configuration", "printing"],
+  "impact": "Low - Printing reliability issues",
+  "root_cause": "Multiple conflicting printer drivers",
+  "prevention_measures": "Standardized printer driver management"
+}
+

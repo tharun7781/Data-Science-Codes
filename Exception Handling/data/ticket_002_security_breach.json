@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-002",
+  "priority": "CRITICAL",
+  "category": "Security",
+  "status": "Resolved",
+  "created_date": "2024-01-16T11:20:00Z",
+  "resolved_date": "2024-01-17T16:30:00Z",
+  "assigned_to": "Sarah Davis",
+  "user": {
+    "name": "Bob Wilson",
+    "department": "Marketing",
+    "email": "bob.wilson@company.com"
+  },
+  "subject": "Suspected Security Breach",
+  "description": "Security monitoring detected unauthorized access attempts to company email server. Multiple failed login attempts from suspicious IP addresses. Potential data breach in progress.",
+  "resolution": "Blocked malicious IPs and implemented additional security measures",
+  "resolution_steps": [
+    "Analyzed security logs and identified attack patterns",
+    "Blocked suspicious IP addresses at firewall level",
+    "Reset all potentially compromised passwords",
+    "Enabled two-factor authentication for all accounts",
+    "Updated security policies and monitoring rules",
+    "Conducted security audit of all systems"
+  ],
+  "time_spent_minutes": 1270,
+  "tags": ["security", "breach", "firewall", "authentication", "monitoring"],
+  "impact": "Critical - Potential data exposure",
+  "root_cause": "Weak password policies and insufficient monitoring",
+  "prevention_measures": "Enhanced security policies and real-time monitoring"
+}
+

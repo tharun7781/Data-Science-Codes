@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-004",
+  "priority": "MEDIUM",
+  "category": "Email",
+  "status": "Resolved",
+  "created_date": "2024-01-18T14:30:00Z",
+  "resolved_date": "2024-01-18T17:45:00Z",
+  "assigned_to": "Lisa Brown",
+  "user": {
+    "name": "David Kim",
+    "department": "IT",
+    "email": "david.kim@company.com"
+  },
+  "subject": "Email Server Overwhelmed by Spam",
+  "description": "Email server is receiving massive amounts of spam emails, causing performance issues and legitimate emails to be delayed. Server resources are being consumed by spam processing.",
+  "resolution": "Updated spam filters and blocked malicious senders",
+  "resolution_steps": [
+    "Analyzed spam patterns and identified source domains",
+    "Updated spam filter rules and sensitivity settings",
+    "Blocked malicious sender domains at DNS level",
+    "Configured rate limiting for incoming emails",
+    "Updated antivirus definitions for email scanning",
+    "Monitored email flow and performance metrics"
+  ],
+  "time_spent_minutes": 195,
+  "tags": ["email", "spam", "performance", "filtering", "security"],
+  "impact": "Medium - Email delays and performance issues",
+  "root_cause": "Insufficient spam filtering and outdated rules",
+  "prevention_measures": "Regular spam filter updates and monitoring"
+}
+

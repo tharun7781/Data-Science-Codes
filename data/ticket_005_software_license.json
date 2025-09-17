@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-005",
+  "priority": "MEDIUM",
+  "category": "Software",
+  "status": "Resolved",
+  "created_date": "2024-01-19T10:45:00Z",
+  "resolved_date": "2024-01-19T13:20:00Z",
+  "assigned_to": "Tom Wilson",
+  "user": {
+    "name": "Emma Thompson",
+    "department": "Sales",
+    "email": "emma.thompson@company.com"
+  },
+  "subject": "Software License Compliance Issue",
+  "description": "Software audit revealed that company is using more licenses than purchased. Multiple users are sharing licenses which violates software agreements and could result in legal action.",
+  "resolution": "Purchased additional licenses and implemented license management",
+  "resolution_steps": [
+    "Conducted comprehensive software audit across all systems",
+    "Identified all installed software and license usage",
+    "Purchased additional licenses to meet compliance requirements",
+    "Implemented license management software for tracking",
+    "Configured license enforcement policies",
+    "Trained users on proper license usage"
+  ],
+  "time_spent_minutes": 155,
+  "tags": ["license", "compliance", "audit", "software", "legal"],
+  "impact": "Medium - Legal compliance risk",
+  "root_cause": "Insufficient license tracking and management",
+  "prevention_measures": "Implement license management system and regular audits"
+}
+

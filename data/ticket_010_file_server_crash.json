@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-010",
+  "priority": "CRITICAL",
+  "category": "File Server",
+  "status": "Resolved",
+  "created_date": "2024-01-24T08:30:00Z",
+  "resolved_date": "2024-01-24T16:45:00Z",
+  "assigned_to": "Daniel Kim",
+  "user": {
+    "name": "Laura Anderson",
+    "department": "IT",
+    "email": "laura.anderson@company.com"
+  },
+  "subject": "File Server Complete Failure",
+  "description": "Primary file server crashed and will not boot. All shared drives and user data are inaccessible. This affects all departments and critical business operations.",
+  "resolution": "Replaced failed hardware and restored from backup",
+  "resolution_steps": [
+    "Diagnosed hardware failure and identified failed components",
+    "Replaced failed motherboard and memory modules",
+    "Restored operating system from backup image",
+    "Restored all file shares and user data from backup",
+    "Reconfigured file server settings and permissions",
+    "Verified data integrity and tested all file operations"
+  ],
+  "time_spent_minutes": 495,
+  "tags": ["file_server", "crash", "hardware", "data_restore", "backup"],
+  "impact": "Critical - All file access unavailable",
+  "root_cause": "Hardware failure due to power surge",
+  "prevention_measures": "Implement UPS protection and hardware redundancy"
+}
+

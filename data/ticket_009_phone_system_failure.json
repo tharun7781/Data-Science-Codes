@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-009",
+  "priority": "HIGH",
+  "category": "Telecommunications",
+  "status": "Resolved",
+  "created_date": "2024-01-23T09:45:00Z",
+  "resolved_date": "2024-01-23T14:20:00Z",
+  "assigned_to": "Patricia White",
+  "user": {
+    "name": "Robert Taylor",
+    "department": "Support",
+    "email": "robert.taylor@company.com"
+  },
+  "subject": "VoIP Phone System Complete Failure",
+  "description": "Entire VoIP phone system is down across all locations. No calls can be made or received. Phone system shows critical errors and all handsets display 'No Service'.",
+  "resolution": "Restarted phone system services and restored connectivity",
+  "resolution_steps": [
+    "Diagnosed phone system server and identified service failures",
+    "Restarted all VoIP services and core system components",
+    "Verified network connectivity to phone system server",
+    "Reconfigured phone system settings and user accounts",
+    "Tested call functionality across all locations",
+    "Implemented monitoring to prevent future outages"
+  ],
+  "time_spent_minutes": 275,
+  "tags": ["voip", "phone_system", "outage", "telecommunications", "services"],
+  "impact": "High - Complete communication failure",
+  "root_cause": "Service failures due to system overload",
+  "prevention_measures": "Implement system monitoring and load balancing"
+}
+

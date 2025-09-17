@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-003",
+  "priority": "HIGH",
+  "category": "Network",
+  "status": "Resolved",
+  "created_date": "2024-01-17T08:15:00Z",
+  "resolved_date": "2024-01-17T12:30:00Z",
+  "assigned_to": "Mike Chen",
+  "user": {
+    "name": "Carlos Rodriguez",
+    "department": "HR",
+    "email": "carlos.rodriguez@company.com"
+  },
+  "subject": "Network Outage - Building A",
+  "description": "Complete network outage affecting entire Building A. No internet connectivity, no access to shared drives, and VoIP phones are down. All users in the building are unable to work.",
+  "resolution": "Replaced failed network switch and restored connectivity",
+  "resolution_steps": [
+    "Identified failed core network switch in Building A",
+    "Replaced failed switch with backup unit",
+    "Reconfigured VLAN settings and port assignments",
+    "Tested connectivity to all network segments",
+    "Verified internet access and internal services",
+    "Monitored network stability for 2 hours"
+  ],
+  "time_spent_minutes": 255,
+  "tags": ["network", "outage", "switch", "connectivity", "infrastructure"],
+  "impact": "High - Entire building offline",
+  "root_cause": "Hardware failure in core network switch",
+  "prevention_measures": "Implement redundant switches and monitoring"
+}
+

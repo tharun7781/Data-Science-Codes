@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-015",
+  "priority": "HIGH",
+  "category": "Web Services",
+  "status": "Resolved",
+  "created_date": "2024-01-29T12:00:00Z",
+  "resolved_date": "2024-01-29T16:30:00Z",
+  "assigned_to": "Angela Miller",
+  "user": {
+    "name": "Paul Johnson",
+    "department": "Sales",
+    "email": "paul.johnson@company.com"
+  },
+  "subject": "Company Website Down",
+  "description": "Company website is completely inaccessible. Customers cannot access online services, make purchases, or view product information. This is affecting business operations significantly.",
+  "resolution": "Restored website from backup and fixed server issues",
+  "resolution_steps": [
+    "Diagnosed web server issues and identified root cause",
+    "Restored website files from latest backup",
+    "Fixed database connectivity issues",
+    "Updated web server configuration and security settings",
+    "Tested website functionality and performance",
+    "Implemented monitoring to prevent future outages"
+  ],
+  "time_spent_minutes": 270,
+  "tags": ["website", "downtime", "web_server", "database", "restore"],
+  "impact": "High - Customer-facing service unavailable",
+  "root_cause": "Server configuration issues and database connectivity",
+  "prevention_measures": "Enhanced monitoring and backup procedures"
+}
+

@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-017",
+  "priority": "MEDIUM",
+  "category": "Network",
+  "status": "Resolved",
+  "created_date": "2024-01-31T15:45:00Z",
+  "resolved_date": "2024-02-01T10:30:00Z",
+  "assigned_to": "Mark Thompson",
+  "user": {
+    "name": "Stephanie Brown",
+    "department": "Marketing",
+    "email": "stephanie.brown@company.com"
+  },
+  "subject": "Network Segmentation Implementation",
+  "description": "Need to implement network segmentation to improve security. Current flat network design allows unrestricted access between all network segments, creating security risks.",
+  "resolution": "Implemented VLAN segmentation and access controls",
+  "resolution_steps": [
+    "Designed network segmentation strategy and VLAN structure",
+    "Configured VLANs and subnet assignments",
+    "Implemented access control lists and firewall rules",
+    "Migrated devices to appropriate network segments",
+    "Tested connectivity and security between segments",
+    "Updated documentation and provided user training"
+  ],
+  "time_spent_minutes": 1185,
+  "tags": ["network", "segmentation", "vlan", "security", "firewall"],
+  "impact": "Medium - Network security improvement",
+  "root_cause": "Flat network design with insufficient security controls",
+  "prevention_measures": "Regular network security audits and monitoring"
+}
+

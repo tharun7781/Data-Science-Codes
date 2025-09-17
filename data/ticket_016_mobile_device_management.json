@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-016",
+  "priority": "MEDIUM",
+  "category": "Mobile Devices",
+  "status": "Resolved",
+  "created_date": "2024-01-30T11:20:00Z",
+  "resolved_date": "2024-01-30T14:45:00Z",
+  "assigned_to": "Brian Wilson",
+  "user": {
+    "name": "Karen Smith",
+    "department": "Support",
+    "email": "karen.smith@company.com"
+  },
+  "subject": "Mobile Device Management Issues",
+  "description": "Company mobile devices cannot connect to corporate email and applications. MDM policies are not being applied correctly and devices are not receiving security updates.",
+  "resolution": "Updated MDM configuration and resolved device enrollment",
+  "resolution_steps": [
+    "Diagnosed MDM server connectivity and policy issues",
+    "Updated mobile device management server configuration",
+    "Re-enrolled affected devices in MDM system",
+    "Applied correct security policies and restrictions",
+    "Verified email and application access on devices",
+    "Tested device compliance and security features"
+  ],
+  "time_spent_minutes": 205,
+  "tags": ["mdm", "mobile_devices", "policies", "enrollment", "security"],
+  "impact": "Medium - Mobile device security and access issues",
+  "root_cause": "MDM server configuration and policy application issues",
+  "prevention_measures": "Regular MDM monitoring and policy testing"
+}
+

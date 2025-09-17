@@ -1,0 +1,31 @@
+{
+  "ticket_id": "TKT-012",
+  "priority": "LOW",
+  "category": "Security",
+  "status": "Resolved",
+  "created_date": "2024-01-26T14:20:00Z",
+  "resolved_date": "2024-01-26T16:45:00Z",
+  "assigned_to": "Maria Garcia",
+  "user": {
+    "name": "James Wilson",
+    "department": "Finance",
+    "email": "james.wilson@company.com"
+  },
+  "subject": "Antivirus False Positive Blocking Application",
+  "description": "Antivirus software is incorrectly identifying legitimate business application as malware and blocking its execution. This prevents users from accessing critical business software.",
+  "resolution": "Updated antivirus definitions and whitelisted application",
+  "resolution_steps": [
+    "Analyzed antivirus logs and identified false positive",
+    "Updated antivirus definitions to latest version",
+    "Added application to antivirus whitelist",
+    "Configured exclusion rules for application files",
+    "Tested application functionality after changes",
+    "Reported false positive to antivirus vendor"
+  ],
+  "time_spent_minutes": 145,
+  "tags": ["antivirus", "false_positive", "whitelist", "security", "application"],
+  "impact": "Low - Application access blocked",
+  "root_cause": "Outdated antivirus definitions and aggressive scanning",
+  "prevention_measures": "Regular antivirus updates and whitelist management"
+}
+
